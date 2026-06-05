@@ -68,3 +68,11 @@ class Dosen extends Orang {
     System.out.println(getNama() + " berperan sebagai Mahasiswa.");
 }
 }
+
+public class Main {
+    public static void main(String[] args) {
+    MataKuliah pbo = new MataKuliah("FIT204", "Perancangan Berorientasi Objek", 3);
+    MataKuliah wbo = new MataKuliah("FIT305", "Perancangan Web", 3);
+    MataKuliah strukturData = new MataKuliah("FIT204", "Struktur Data", 3);
+}
+}
