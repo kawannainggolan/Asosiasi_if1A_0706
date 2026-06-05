@@ -96,3 +96,7 @@ public class Main {
         System.out.println();
     System.out.println("-- Data Mahasiswa --");
     mahasiswa.tampilkanKrs();
+
+        System.out.println();
+    System.out.println("-- Data Mahasiswa --");
+    mahasiswa.tampilkanKrs();
