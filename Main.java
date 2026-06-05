@@ -80,3 +80,7 @@ public class Main {
     Dosen dosen = new Dosen("Pak Indra", "0712345678");
     dosen.tampilkanMatakuliah(pbo);
     dosen.tampilkanMatakuliah(wbo);
+
+    Mahasiswa mahasiswa = new Mahasiswa("Andi Pratama", "234811891");
+    mahasiswa.mahasiswa = dosen.tampilkanMatakuliah(pbo);
+    mahasiswa.mahasiswa.tampilkanData();
