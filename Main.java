@@ -84,3 +84,7 @@ public class Main {
     Mahasiswa mahasiswa = new Mahasiswa("Andi Pratama", "234811891");
     mahasiswa.mahasiswa = dosen.tampilkanMatakuliah(pbo);
     mahasiswa.mahasiswa.tampilkanData();
+
+        System.out.println("-- Data Peran --");
+    dosen.tampilkanPeran();
+    mahasiswa.tampilkanPeran();
