@@ -76,3 +76,7 @@ public class Main {
     MataKuliah strukturData = new MataKuliah("FIT204", "Struktur Data", 3);
 }
 }
+
+    Dosen dosen = new Dosen("Pak Indra", "0712345678");
+    dosen.tampilkanMatakuliah(pbo);
+    dosen.tampilkanMatakuliah(wbo);
